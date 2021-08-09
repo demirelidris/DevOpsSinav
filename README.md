@@ -28,7 +28,8 @@ Dockerfile dosyası çalıştırıldığında alpine ve bizim içinde özle olar
 
 Docker-compose: Infrastructure as Code formatında tek bir dosyada bütün containerları oluşturmamızı ve ayağa kaldırmamızı sağlıyor.
 
-<img width="660" alt="Screenshot 2021-08-09 at 16 00 08" src="https://user-images.githubusercontent.com/82338626/128710114-8364f2dd-a40f-4ae0-ba5a-7d5087609f19.png">
+<img width="420" alt="Screenshot 2021-08-09 at 16 18 20" src="https://user-images.githubusercontent.com/82338626/128712589-c8137df7-83d8-41ab-b90e-08d981940edb.png">
+
 
 Bu şekilde wordpress ve mysql imagelarını indirip çalışacakları portları image'ları ve verilerini kaydedecekleri volumeleri belirtmiş oluyoruz.
 
