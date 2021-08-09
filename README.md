@@ -11,20 +11,23 @@ Dockerfile: İmage oluşturma işlemlerini otomatize etmek için kullanılan bir
 <img width="457" alt="Screenshot 2021-08-09 at 15 51 57" src="https://user-images.githubusercontent.com/82338626/128709021-6569878d-e4a7-4393-91e3-37de728b66fb.png">
 
 FROM alpine:latest
+
 -> Burada alpine image'ının latest versiyonunu eğer localimizde böyle bir image yoksa DockerHub'dan Docker Engine vasıtasıyla çekiyoruz.
 
-
 -> sonrasında indirilen image içerisinde aşağıdaki komutların çalıştırılmasını sağlıyoruz.
+
 RUN apk update 
 
 RUN apk add curl
 
 RUN apk add htop
 
+
+
 <img width="795" alt="Screenshot 2021-08-09 at 14 27 59" src="https://user-images.githubusercontent.com/82338626/128709447-f1e41d86-6c78-4b07-9f67-9b5f49bbb3ea.png">
 <img width="798" alt="Screenshot 2021-08-09 at 14 27 44" src="https://user-images.githubusercontent.com/82338626/128709454-6e0db2a0-fdf5-46eb-a3da-d984c8ba2658.png">
 
-Dockerfile dosyası çalıştırıldığında alpine ve bizim içinde özle olarak yüklenmesini istediğimiz 2 image oluşturuyor. Özelleştridiğimiz image aslında alpine image üzerine kurulan paketlerin olduğu image'dır.
+Dockerfile dosyasını build edince  alpine ve bizim içinde özel olarak yüklenmesini istediğimiz paketlerin bulunduğu  imagelar oluşturuyor. Özelleştridiğimiz image aslında alpine image üzerine kurulan paketlerin olduğu image'dır.Aslında tekrar bir image oluşturmuyor. Var olan image üzerine eklemelerde bulunuyor.
 
 
 
