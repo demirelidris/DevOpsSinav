@@ -2,6 +2,8 @@
 
 Bu repository staj kapsamında istenilen haftalık çalışmaları kapsamaktadır.
 
+
+
 1- Alpine üzerine htop ve curl komutlarının kurulu olduğu bir image oluşturun
 
 Dockerfile: İmage oluşturma işlemlerini otomatize etmek için kullanılan bir dosyadır.Bu dosyanın ismi "Dockerfile" olmalıdır.
@@ -23,6 +25,8 @@ RUN apk add htop
 <img width="798" alt="Screenshot 2021-08-09 at 14 27 44" src="https://user-images.githubusercontent.com/82338626/128709454-6e0db2a0-fdf5-46eb-a3da-d984c8ba2658.png">
 
 Dockerfile dosyası çalıştırıldığında alpine ve bizim içinde özle olarak yüklenmesini istediğimiz 2 image oluşturuyor. Özelleştridiğimiz image aslında alpine image üzerine kurulan paketlerin olduğu image'dır.
+
+
 
 2- Wordpress docker image'ını ve mysql image'ını docker-compose ile ayaga kaldırın
 
@@ -46,6 +50,8 @@ Web browser üzerinde localhostumuzun verdiğimiz poruna bağlandığımızda is
 <img width="1166" alt="Screenshot 2021-08-09 at 14 55 40" src="https://user-images.githubusercontent.com/82338626/128710919-fc5ce6a7-d723-458f-b941-9bc5f00ef901.png">
 
 Wordpress'e bağlanmış oluyoruz.
+
+
 
 3- Ansible ile Ubuntu üzerinde docker kurulumu yapacak playbook.
 
