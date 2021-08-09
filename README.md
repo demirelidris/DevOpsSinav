@@ -52,9 +52,11 @@ Wordpress'e bağlanmış oluyoruz.
 Ansible, manuel yapılan işlemleri otomatize etmek için sıkça kullanılır. Elimizde tuttuğumuz inventory dosyamızdaki sunuculara SSH ile bağlanıp kendisine verilen görevi yerine getirir.
 
 host.ini dosyasının içeriği
+
 <img width="425" alt="Screenshot 2021-08-09 at 16 09 26" src="https://user-images.githubusercontent.com/82338626/128711345-b190e848-4a5d-42e5-a4aa-664ee362a3ca.png">
 
 roles.yaml dosyasının içeriği
+
 <img width="304" alt="Screenshot 2021-08-09 at 16 09 47" src="https://user-images.githubusercontent.com/82338626/128711381-bf5f4b05-fa83-4b4f-b489-551a8254d73b.png">
 
 roles/docker/tasks altında bulunan main.yaml dosyasının içeriği
@@ -65,6 +67,7 @@ Playbook'umu çalıştırdığım da ise:
 
 <img width="1054" alt="Screenshot 2021-08-09 at 15 36 10" src="https://user-images.githubusercontent.com/82338626/128712173-1a6e6b66-05ef-4a1d-8d19-296cee50bb83.png">
 
+<img width="993" alt="Screenshot 2021-08-09 at 15 34 47" src="https://user-images.githubusercontent.com/82338626/128713065-894d1c98-9720-4603-a96c-e401d89e9b84.png">
 
 
 
