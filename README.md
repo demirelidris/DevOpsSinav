@@ -69,11 +69,19 @@ roles/docker/tasks altında bulunan main.yaml dosyasının içeriği
 
 <img width="631" alt="Screenshot 2021-08-09 at 16 10 43" src="https://user-images.githubusercontent.com/82338626/128711500-7b6d51ef-2ba2-4f32-b08d-5103ecd80891.png">
 
+Playbook'u çalıştırmadan önce client makinemin durumu
+
+<img width="925" alt="Screenshot 2021-08-09 at 16 41 52" src="https://user-images.githubusercontent.com/82338626/128715995-633b36bd-9c9c-434c-9793-2825abb6f966.png">
+
+
 Playbook'umu çalıştırdığım da ise:
 
 <img width="1054" alt="Screenshot 2021-08-09 at 15 36 10" src="https://user-images.githubusercontent.com/82338626/128712173-1a6e6b66-05ef-4a1d-8d19-296cee50bb83.png">
 
-<img width="993" alt="Screenshot 2021-08-09 at 15 34 47" src="https://user-images.githubusercontent.com/82338626/128713065-894d1c98-9720-4603-a96c-e401d89e9b84.png">
+<img width="769" alt="Screenshot 2021-08-09 at 16 42 03" src="https://user-images.githubusercontent.com/82338626/128716053-1bc55436-60f4-4455-b970-c3c9cf3764bb.png">
+
+
+
 
 
 
